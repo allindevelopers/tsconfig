@@ -1,0 +1,36 @@
+{
+	"name": "@allindevelopers/tsconfig",
+	"version": "0.0.0",
+	"description": "A shareable TypeScript configuration package that provides strict type checking rules",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 0",
+		"format": "prettier --write --ignore-unknown .",
+		"release": "np"
+	},
+	"keywords": [
+		"typescript",
+		"tsconfig",
+		"ts",
+		"strict",
+		"strict mode",
+		"strict mode tsconfig",
+		"strict tsconfig",
+		"strict tsconfig.json"
+	],
+	"author": "Andrei Luca (https://luca.md)",
+	"license": "MIT",
+	"type": "module",
+	"devDependencies": {
+		"@allindevelopers/prettier-config": "^1.0.0",
+		"np": "^10.2.0",
+		"prettier": "^3.5.3",
+		"typescript": "^5.8.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/allindevelopers/tsconfig.git"
+	},
+	"files": [
+		"strict.json"
+	]
+}
